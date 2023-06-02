@@ -16,6 +16,17 @@ public aspect Logger {
     	System.out.println(lineaMensaje );
     	//writeLog(lineaMensaje ,file);
     	//System.out.println("** User created **");
+    	
+    pointcut successTransaction() : call (*moneyMakeTransaction*(..));
+    after() successTransaction() {
+    	
+    	String mensaje = "*** Transaccion exitosa - ***"+ cal.getTime();
+    	System.out.println(mensaje);
+    	///wrtieLog(mensaje,file)
+    	
+    	
+    	
+    }
     }
 }
     
