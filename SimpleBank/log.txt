@@ -1,0 +1,3 @@
+*** Transaccion exitosa - ***Thu Jun 01 20:50:39 COT 2023
+**** Retiro exitoso ****   -Thu Jun 01 20:50:39 COT 2023
+** User created **   -Thu Jun 01 20:50:39 COT 2023
